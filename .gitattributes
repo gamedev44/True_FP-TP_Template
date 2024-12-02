@@ -22,3 +22,6 @@
 
 # Anything in `/RawContent` dir.
 /RawContent/**/* filter=lfs diff=lfs merge=lfs -text
+
+# Track everything in `/Plugins` dir.
+Plugins/**/* filter=lfs diff=lfs merge=lfs -text
